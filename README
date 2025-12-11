@@ -12,8 +12,24 @@ Spectral Computing: inference via relaxation of violation energy
 Zero Phi Memory: persistence without optimization (Phi(v) = 0)
 Spectral Integrity Classifier (SIC): polynomial-time SAT decision via partition functions
 
-Code
-Python implementations coming soon in /code/.
+CODEBASE AND DEMOS
+
+The core architecture is implemented in two opposing regimes:
+
+- ZeroPhiMemory.py (The Memory): Implements geometric storage (Phi = 0).
+- SpectralComputation.py (The Engine): Implements flux-driven computation (Phi is not equal to 0).
+
+HOW TO RUN THE DEMOS
+
+1. Prerequisites: Ensure you have the numpy library installed:
+
+pip install numpy
+
+2. Run the Interoperability Demo: This file provides the most complete test, demonstrating how a stable memory item can bias and resolve an uncertain computation query.
+
+python Interoperability_Demo.py
+
+Expected Outcome: The output will confirm the system stores a stable fixed point (e.g., v=10) and then resolves a mixed input (e.g., 80% uncertain query at v=30) back to the stable memory state (v_final=10), demonstrating the dominance of geometric invariance.
 
 Citation
 Jones RW (2025) Foundations of the Spectral Computer: A Physical Theory of Computation Through Energy, Geometry, and Relaxation. osf.io/4vpuf.
