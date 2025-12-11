@@ -1,0 +1,22 @@
+Foundations of the Spectral Computer
+A physical theory of computation through energy, geometry, and relaxation.
+
+Download PDF: https://osf.io/4vpuf
+DOI: 10.17605/OSF.IO/4VPUF
+
+Quick Summary
+Computation is traditionally symbolic. This work reframes it as spectral thermodynamics: logic as flux compression, memory as geometry in stillness.
+
+Key Ideas
+Spectral Computing: inference via relaxation of violation energy
+Zero Phi Memory: persistence without optimization (Phi(v) = 0)
+Spectral Integrity Classifier (SIC): polynomial-time SAT decision via partition functions
+
+Code
+Python implementations coming soon in /code/.
+
+Citation
+Jones RW (2025) Foundations of the Spectral Computer: A Physical Theory of Computation Through Energy, Geometry, and Relaxation. osf.io/4vpuf.
+
+License
+Creative Commons Attribution-NonCommercial 4.0. See LICENSE file.
